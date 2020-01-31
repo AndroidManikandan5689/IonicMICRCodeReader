@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  Result: 
+  <p>
+    Full Number : {{fullNo}}</p>
+    <p> Account Number : {{accountNo}}</p>
+      <p> Router Number : {{routeNo}}</p>
+        <p> Cheque Number : {{checkNo}}
+  </p>
+
+  <img src="assets/imgs/cheq.jpg" (click)="recognize($event)"/>
+  <img src="assets/imgs/dubaifull.jpg" (click)="recognize($event)"/>
+  <img src="assets/imgs/dubaicrop.jpg" (click)="recognize($event)"/>
+  <img src="assets/imgs/dubaicheque.jpg" (click)="recognize($event)"/>
+
+
+
+<img src="assets/imgs/sample_cheque.jpg" (click)="recognize($event)"/>
+
+
+<img src="assets/imgs/cheque1.jpg" (click)="recognize($event)"/>
+
+
+<img src="assets/imgs/sample_cibc.jpg" (click)="recognize($event)"/>
+</ion-content>
