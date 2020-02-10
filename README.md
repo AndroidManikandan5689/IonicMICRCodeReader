@@ -18,7 +18,7 @@ This repo is the code of an Ionic 4 app for read the micr code from cheque image
 
 ## Screenshot
 
-![Image of MICR Scanner using Tesseract](screenshots/micr_tesseract.png)
+![Image description](screenshot/micr_tesseract.png)
 
 ### How to Use
 
